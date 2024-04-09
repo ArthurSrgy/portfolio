@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>
+    Arthur Saurigny | Portfolio
+  </title>
+  <meta name="description" content="Étudiant à l'université de Nantes en BUT informatique.">
+  <meta name="keywords" content="Arthur Saurigny Python Golang Kotlin HTML CSS IUT Nantes" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#about" class="nav__link">Présentation</a></li>
+          <li class="nav__item"><a href="#motivation-letter" class="nav__link">Lettre de Motivation</a></li>
+          <li class="nav__item"><a href="#cv" class="nav__link">CV</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projets</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Arthur Saurigny</span>
+        </h1>
+        <p>Étudiant à l'université de Nantes en BUT informatique.</p>
+        <a href="#contact" class="btn btn--pink">Me Contacter</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Présentation ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>Présentation</h2>
+        <div class="about__content">
+          <div class="about__text">
+            
+            <p>
+              Diplomé du Baccalauréat 2022-2023 avec les options Mathématiques et Numérique Sciences Informatiques. Je suis passionné par la programmation
+              et je souhaiterais ainsi en faire mon futur métier en tant que développeur d'application. Actuellement en 1ère année de BUT informatique à
+              l'IUT de Nantes, je souhaite finir les 3 années de ma formation pour ensuite intégrer une école d'ingénieur. 
+            </p>
+            <a href="#cv" class="btn">Mon CV</a>
+          </div>
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/juan.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- ***** Lettre de Motivation ***** -->
+
+    <section class="motivation-letter" id="motivation-letter">
+      <div class="row">
+        <h2>Lettre de Motivation</h2>
+        <div class="letter__content">
+          <div class="letter__text">
+            <p>Madame, Monsieur,</p>
+
+            <p>Actuellement élève de BUT informatique à l'IUT de Nantes, je souhaiterais intégrer votre entreprise en tant qu'alternant au sein de l'équipe de la conception, maintenance et validation d'applications numériques afin d'acquérir les connaissances nécessaires qui me permettront d'exercer à l’avenir le métier de développeur logiciel.</p>
+
+            <p>Je suis un candidat sérieux et doté d'une grande curiosité dans le domaine de l'informatique. Suite à la découverte de la programmation informatique à 14 ans, j'ai développé une passion pour la création de programmes informatiques avec la conception de logiciels. Étant rigoureux et créatif, je prends plaisir à coder des projets personnels lors de mon temps libre. Grâce à ceux-ci et ma formation, j'ai acquis un socle de compétences solide dans la structure de mes programmes. Je suis également capable de travailler en équipe, la majorité des projets de la formation du BUT sont des travaux de groupes. </p>
+
+            <p>Rejoindre votre entreprise serait pour moi une opportunité de me familiariser davantage avec le monde du travail et de découvrir des pratiques encore inconnus de moi de la réalisation d'applications. Ce contrat en alternance me permettra en outre d'outre d'utiliser mes compétences au profit de votre entreprise en vue de contribuer à son développement.</p>
+
+            <p>Grâce à ma formation à l'IUT de Nantes, je maîtrise désormais les langages Python, Golang, Kotlin/Java, SQL ainsi que HTML/CSS. En complément, j'ai aussi appris la conception d'applications ainsi que les principes du développement orienté objet et de leurs importances lors de la création d'application.
+            <br>Toutes ces compétences pourront être mises en service lors des projets que vous pourrez m'attribuer.</p>
+
+            <p>Souhaitant que ma candidature retienne votre attention.<br>Je vous remercie par avance de l'attention que vous porterez à ma candidature.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** CV ***** -->
+
+    <section class="cv" id="cv">
+      <div class="row">
+        <h2>CV</h2>
+        <div class="cv-container">
+          <object class="pdf-viewer"
+            data='./cv/CV-Arthur-Saurigny.pdf'
+            type="application/pdf"
+            
+          >
+    
+            <iframe class="pdf-viewer"
+              src='./cv/CV-Arthur-Saurigny.pdf'
+            >
+            <p>This browser does not support PDF!</p>
+            </iframe>
+          </object>
+          <br>
+          <br>
+          <a href="./CV-Arthur-Saurigny.pdf" download="CV-Arthur-Saurigny.pdf" class="btn">Télécharger le CV</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Mes Projets</h2>
+        <div class="work__boxes">
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Simulation De Balles Rebondissantes</h3>
+              <p>
+                Une simulation de balles rebondissantes représenté par des têtes de chats parcourant l'écran et récupérant des lasagnes, le programme inclus aussi un algorithme d'évolution de génération rudimentaire.
+              </p>
+              <p>Compétences :</p>
+              <ul class="work__list">
+                <li>Pyhton</li>
+                <li>Programmation Orienté Objet</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://hoffstech.com" target="_blank" class="link__text">
+                  Voir le Projet <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/sbenhoff/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projet-garf.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Tetris</h3>
+              <p>
+                Un Tetris complet sur pyton, comprend plusieurs options comme la taille de la grille de jeu ou même de la musique.
+              </p>
+              <p>Compétences :</p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Programmation Orienté Objet</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Voir le Projet <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projet-tetris.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Génération de Village</h3>
+              <p>
+                Jeu générant un village aléatoirement et nous laissant se balader librement, comprend diverses options suplémentaires comme un système de téléporteur, de cycle de la journée, ou de météo.
+              </p>
+              <p>Compétences :</p>
+              <ul class="work__list">
+                <li>Golang</li>
+                <li>Java</li>
+                <li>Création d'algorithmes de génération aléatoire</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Voir le Projet <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projet-quad.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** 
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          --><!-- Add logos of the clients or companies you'have worked with. 
+          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section> -->
+
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Me Contacter</h2>
+      <div class="contact__info">
+        <!--<p>
+          Are you looking for a fast-performing and user-friendly website to
+          represent your product or business? or looking for any kind of
+          consultation? or want to ask questions? or have some advice for me
+          or just want to say "Hi 👋" in any case feel free to Let me know. I
+          will do my best to respond back. 😊 The quickest way to reach out to
+          me is via an email.
+        </p>-->
+        <p>arthursaurigny@gmail.com 🤓</p>
+        <!-- Replace the email with yours -->
+        <a href="arthursaurigny@gmail.com" class="btn">arthursaurigny@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
