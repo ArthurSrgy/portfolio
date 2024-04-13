@@ -1,0 +1,44 @@
+{
+    "DebugMode": false,
+    "NumTileX": 42,
+    "NumTileY": 23,
+    "TileSize": 16,
+    "NumCharacterAnimImages": 2,
+    "NumFramePerCharacterAnimImage": 2,
+    "NumTileForDebug": 11,
+    "FloorKind": 2,
+    "FloorFile": "../floor-files/exemple",
+    "Fullscreen": true,
+
+    "_comment1": "-------Generation Aleatoire Quadtree-------",
+    "SeedOn": false ,
+    "Seed": 5,
+    "GenerateRandomFloor": true,
+    "GenerateVillage": true,
+
+    "_comment2": "-------Changements Sol-------",
+    "FrameCount": 0,
+    "AnimeFloor": true,
+    "FuseFloor": true,
+
+    "_comment3": "-------Changements Personnage-------",
+    "SwitchPersoOn": true,
+    "_comment3bis": "Personnage : 0 => Chevalier, 1 => Fantôme",
+    "Personnage" : 0,
+
+    "_comment4": "-------Option Camera-------",
+    "_comment4bis": "Pour CameraMode : 0 => bloqué, 1 et 2 => mobile mais non fluide, 3 => mobile et fluide",
+    "CameraMode": 3,
+
+    "_comment5": "-------Option Particule-------",
+    "ParticuleOn": true,
+    "Météo": 2,
+
+    "_comment6": "-------Option Téléporteur-------",
+    "TeleporteurOn": true,
+
+    "_comment8": "-------Option Journée-------",
+    "DaytimeCycle": false,
+    "Daytime": 0,
+    "DaytimeSpeed": 2
+}
