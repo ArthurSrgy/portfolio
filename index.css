@@ -399,6 +399,72 @@ body:not(.user-is-tabbing) a:focus {
     background: var(--pink);
 }
 
+/* menu burger */
+
+.burger__link {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    transition: all .2s;
+}
+
+.burger__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    display: inline-block;
+    height: 1rem;
+    background: black;
+    transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
+}
+
+.burger__link:hover {
+    color: var(--pink);
+}
+
+.burger__link:hover::after {
+    right: 0;
+    height: 2px;
+    background: var(--pink);
+}
+
+.burger-menu {
+    display: none;
+    margin-left: 5px ;
+ }
+  
+.dropdown-menu {
+    display: none;
+}
+  
+@media only screen and (max-width: 768px) {
+    .nav__items {
+      display: none;
+    }
+  
+    .burger-menu {
+      display: block;
+    }
+  
+    .dropdown-menu.show {
+      display: block;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .dropdown-menu.show li {
+      margin-bottom: 10px;
+    }
+}
+.burger-image{
+    width: 40px;
+    filter : invert(0);
+}
 /* --------------------------------------- */
 /* ----- Header ----- */
 /* --------------------------------------- */

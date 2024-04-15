@@ -1,5 +1,5 @@
 /* -----------------------------------------
-  Have focus outline only for keyboard users 
+
  ---------------------------------------- */
 
 const handleFirstTab = (e) => {
@@ -40,4 +40,17 @@ window.addEventListener("scroll", () => {
     isBackToTopRendered = false;
     alterStyles(isBackToTopRendered);
   }
+});
+
+/* -----------------------------------------
+                Mennu Burger
+ ---------------------------------------- */
+
+ document.addEventListener('DOMContentLoaded', function() {
+  const burgerMenu = document.querySelector('.burger-menu');
+  const dropdownMenu = document.querySelector('.dropdown-menu');
+
+  burgerMenu.addEventListener('click', function() {
+    dropdownMenu.classList.toggle('show');
+  });
 });
