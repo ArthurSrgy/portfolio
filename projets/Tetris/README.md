@@ -18,10 +18,10 @@ Lancer le script de Projet_Tetris.py après avoir télécharger tout les package
 
 Pour jouer, utilisez les touches __directionnels__ ou __[Z][Q][S][D]__ ou __[8][4][5][6]__ (sur votre clavier numériques) pour déplacer la pièce
 Les touches Gauche/Droite servent à déplacer la pièce, la touche Haut à la tourner à droite et la touche Bas pour la faire descendre d'une case.
-Avec la touche __[Espace]__ ou __[Entrée]__ vous pourrez lacher la pièce.
-Avec la touche __[P]__ vous pourrez mettre le jeu en pause/le reprendre.
-Avec la touche __[M]__ vous pourrez activer/désactiver le son (bruitages et musique).
-Avec la touche __[Ctrl]__ vous pourrez réinitialiser la partie en jeu.
+* Avec la touche __[Espace]__ ou __[Entrée]__ vous pourrez lacher la pièce.
+* Avec la touche __[P]__ vous pourrez mettre le jeu en pause/le reprendre.
+* Avec la touche __[M]__ vous pourrez activer/désactiver le son (bruitages et musique).
+* Avec la touche __[Ctrl]__ vous pourrez réinitialiser la partie en jeu.
 
 ## Changer les paramètres
 
