@@ -1,18 +1,18 @@
 # Projet Tetris
-Résumé: Un Tetris complet sur pyton, comprend plusieurs options comme la taille de la grille de jeu ou même de la musique.
+__Résumé:__ Un Tetris complet sur pyton, comprend plusieurs options comme la taille de la grille de jeu ou même de la musique.
 
 ## Comment télécharger ?
-Sur cette page, cliquer sur le fichier Projet_Tetris.py, puis une fois sur la page cliquer sur le boutton télécharger (ou "download raw file") en haut à droite du fichier.
-Faite de même pour le fichier Ressource_TetrisFinalMix.pyxres.
+Sur cette page, cliquer sur le fichier *Projet_Tetris.py*, puis une fois sur la page cliquer sur le boutton télécharger (ou "download raw file") en haut à droite du fichier.
+Faite de même pour le fichier *Ressource_TetrisFinalMix.pyxres*.
 Placer les deux fichier dans le même dossier
 
   
 ## Pour le lancer
 Pour executer le code vous aurez besoin d'avoir les package python suivant:
-* pyxel  (package à télécharger avec la commande 'pip install pyxel')
-* os     (package à télécharger avec la commande 'pip install pyxel')
-* random (package déjà fournis dans python3)
-Lancer le script de Projet_Tetris.py après avoir télécharger tout les packages.
+* __pyxel__  *(package à télécharger avec la commande 'pip install pyxel')*
+* __os__     *(package à télécharger avec la commande 'pip install pyxel')*
+* __random__ *(package déjà fournis dans python3)*
+Lancer le script de *Projet_Tetris.py* après avoir télécharger tout les packages.
 
 ## Comment jouer ?
 
@@ -26,5 +26,5 @@ Les touches Gauche/Droite servent à déplacer la pièce, la touche Haut à la t
 ## Changer les paramètres
 
 Pour changer les différents paramètres, il faudrat modifier le code.
-A la ligne 5 et 6 vous pouvez changer respectivement la largeur et la hauteur de la grille de jeu
-(le minimum étant une grille de 10 x 8 et le maximum 24 x 22)
+A la ligne __5 et 6__ vous pouvez changer respectivement la largeur et la hauteur de la grille de jeu
+(le minimum étant une grille de *10 x 8* et le maximum *24 x 22*)
