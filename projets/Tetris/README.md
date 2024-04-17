@@ -9,9 +9,9 @@ Placer les deux fichier dans le même dossier
   
 ## Pour le lancer
 Pour executer le code vous aurez besoin d'avoir les package python suivant:
-  -pyxel  (package à télécharger avec la commande 'pip install pyxel')
-  -os     (package à télécharger avec la commande 'pip install pyxel')
-  -random (package déjà fournis dans python3)
+* pyxel  (package à télécharger avec la commande 'pip install pyxel')
+* os     (package à télécharger avec la commande 'pip install pyxel')
+* random (package déjà fournis dans python3)
 Lancer le script de Projet_Tetris.py après avoir télécharger tout les packages.
 
 ## Comment jouer ?
