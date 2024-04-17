@@ -32,14 +32,14 @@ class Balle :
 
         if self.attribut == "Lent" : #un Garfield lent aura une moins bonne vitesse mais une zone de colision plus grosse
             self.vitesse = 1.25
-            self.hitbox = 8 #zone de colision
+            self.hitbox = 8.5 #zone de colision
             self.couleur = 2 #couleur du nez
         if self.attribut == "Normal" :#un Garfield normal aura une vitesse moyenne et une zone de colision moyenne
             self.vitesse = 1.5
             self.hitbox = 7 #zone de colision
             self.couleur = 14 #couleur du nez
         if self.attribut == "Rapide" : #un Garfield rapide aura une meilleure vitesse mais une zone de colision plus petite
-            self.vitesse = 1.85
+            self.vitesse = 1.75
             self.hitbox = 6 #zone de colision
             self.couleur = 8 #couleur du nez
 
