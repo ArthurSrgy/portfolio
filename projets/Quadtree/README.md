@@ -1,16 +1,17 @@
 # Projet Quadtree
 Résumé: Jeu générant un village aléatoirement et nous laissant se balader librement, comprend diverses options suplémentaires comme un système de téléporteur, de cycle de la journée, ou de météo.
 
-
-
+## Comment télécharger ?
+Ouvrez votre terminal linux ou Powershell (si sur windows), placer vous dans le répertoire/dossier voulu pour le télécherger avec la commande 'cd'. Une fois fait effectuer la commande 'git clone https://github.com/ArthurSrgy/portfolio.git', celà vous clonera les fichier du portfolio (projets inclus).
 
 ## Pour le lancer
 
-Ouvrez votre terminal, aller dans ./cmd/ avec la commande "cd cmd/" puis entrer la commande "./cmd"une fois dedans, cela ouvrira le jeu, pour le quitter, cliquez simplement sur la croix de la fenêtre ouverte.
+Ouvrez votre terminal, aller dans [nom_de_votre_répertoire]/portfolio/projets/Quadtree/cmd/ avec la commande 'cd [nom_de_votre_répertoire]/portfolio/projets/Quadtree/cmd/' puis entrer la commande './cmd' une fois dedans, cela ouvrira le jeu, pour le quitter, cliquez simplement sur la croix de la fenêtre ouverte.
+(les information entre [ ] sont à remplacer sans les crochets)
 
 ## Changer les paramètres
 
-Pour changer les différents paramètres, rien de plus simple, ouvrez le fichier ./cmd/config.json, éditez le conformément pour activer/désactiver les extensions.
+Pour changer les différents paramètres, rien de plus simple, ouvrez le fichier [nom_de_votre_répertoire]/portfolio/projets/Quadtree/cmd/config.json, éditez le conformément pour activer/désactiver les extensions.
 
 ## Comment paramétrer ?
 
