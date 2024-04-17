@@ -4,14 +4,18 @@ __Résumé:__ Jeu générant un village aléatoirement et nous laissant se balad
 ## Comment télécharger ?
 Ouvrez votre __terminal linux__ ou __Powershell__ (si sur windows), placer vous dans le répertoire/dossier voulu pour le télécherger avec la commande *'cd'*.
 Une fois fait effectuer la commande *'git clone https://github.com/ArthurSrgy/portfolio.git'*, celà vous clonera les fichier du portfolio (projets inclus).
+
 __OU__
+
 Télécharger le projet via ce lien: *https://gitlab.univ-nantes.fr/iut_1/s1.01/eq_03_01/-/releases/RenduFinal*
 
 ## Pour le lancer
 
 Ouvrez votre terminal, aller dans *[nom_de_votre_répertoire]/portfolio/projets/Quadtree/cmd/* avec la commande *'cd [nom_de_votre_répertoire]/portfolio/projets/Quadtree/cmd/'* puis entrer la commande *'./cmd'* une fois dedans, cela ouvrira le jeu, pour le quitter, cliquez simplement sur la croix de la fenêtre ouverte.
 (les information entre [ ] sont à remplacer sans les crochets)
+
 __OU__
+
 Ouvrez votre terminal, aller dans *[nom_de_votre_répertoire]/RenduFinal/cmd/* avec la commande *'cd [nom_de_votre_répertoire]/portfolio/projets/Quadtree/cmd/'* puis entrer la commande *'./cmd'* une fois dedans, cela ouvrira le jeu, pour le quitter, cliquez simplement sur la croix de la fenêtre ouverte.
 
 ## Changer les paramètres
