@@ -1,4 +1,4 @@
-# Projet Quadtree
+# Projet Garfield
 Résumé: Une simulation de balles rebondissantes représenté par des têtes de chats parcourant l'écran et récupérant des lasagnes, le programme inclus aussi un algorithme d'évolution de génération rudimentaire.
 
 ## Comment télécharger ?
